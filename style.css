@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Times, Times New Roman, serif;
+}
+body {
+    background-color: black;
+    background-image: url('image.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.fundo{
+    z-index: -1;
+    position: absolute;
+    top: 80px;
+    bottom: 80px;
+    left: 26em;
+    right: 26em;
+    height: 800px;
+    width: 1000px;
+    background-color: rgb(0, 0, 0, 0.8);
+    filter: blur(20px);
+    border-radius: 10px;
+}
+.juros {
+    color: rgb(255, 0, 0);
+    margin-top: 20%;
+    text-align: center;
+}
+.resposta {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+.red-text {
+    color: red;
+  }
+  
